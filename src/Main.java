@@ -115,7 +115,9 @@ public class Main {
                 System.out.println("Task 5");
                 System.out.println("Enter your R:"); //Вводимо радіус зовнішнього кола
                 int R = scan.nextInt();
+                if(R>20)
                 System.out.println("S = " + (Math.pow(R,2)-Math.pow(20,2)) + "PI CM^2");
+                else System.out.println("R must be more than 20!!!");
             } break;
     }
 }
